@@ -4,15 +4,6 @@
     flex-direction: column;
 
     }
-
-    .header {
-    min-height: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-
-    }
     
     .main {
     display: flex;
@@ -21,6 +12,15 @@
     flex-direction: column;
     justify-content: center;
     background-color: #16011e;
+    
+    }
+
+    .texto{
+        width: 80%; 
+        color: rgb(241, 241, 235);
+        font-size: 20px;
+        text-align: center;
+        
     
     }
 

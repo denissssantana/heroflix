@@ -15,11 +15,21 @@ export default function Home() {
       <div className={styles.container}>
   
         <main className={styles.main}>
-          <Image src="/images/logo1.png" width="631" height="488" alt='logo'/>
+        <div className={styles.filme}>
           
+            <video
+              src="/videos/intro1.mp4" width="1500"
+              controls
+              autoPlay 
+              preload
+              ></video>
+          </div>
           <Link href="./login"> 
             <h1>ENTRAR</h1>
           </Link> 
+
+          
+         
 
         </main>
 

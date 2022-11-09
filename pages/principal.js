@@ -27,11 +27,7 @@ export default function Principal() {
 
         <main className={styles.main}>
           <div className={styles.filme}>
-            <video
-              src="/video/filme.mp4" width="450" 
-              controls
-              preload
-              poster="/images/thmb01.jpg" ></video>
+           
           </div>
           
         </main>
