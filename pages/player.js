@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
-import styles from '../styles/Principal.module.css'
+import styles from '../styles/Player.module.css'
 
 export default function Principal() {
   return (
@@ -13,23 +13,24 @@ export default function Principal() {
         
       </Head>
       <div className={styles.container}>
-      <div className={styles.navbar}>
+      <div>
         <Navbar/>
       </div>
 
-      
+      <div className={styles.mainContent}>
 
         <main className={styles.main}>
-          <div className={styles.filme}>
+          <div>
             <video
-              src="/videos/adaoNegro.mp4" width="910"
+              src="/videos/adaoNegro.mp4" width="1200"
               autoPlay 
               controls
-              preload ></video>
+              preload >
+            </video>
           </div>
           
         </main>
-
+</div>
         <div className={styles.footer}>
           <Footer/>
         </div>    

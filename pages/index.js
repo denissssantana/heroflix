@@ -18,8 +18,7 @@ export default function Home() {
         <div className={styles.filme}>
           
             <video
-              src="/videos/intro1.mp4" width="1500"
-              controls
+              src="/videos/intro1.mp4" width="1200"
               autoPlay 
               preload
               ></video>
@@ -28,8 +27,6 @@ export default function Home() {
             <h1>ENTRAR</h1>
           </Link> 
 
-          
-         
 
         </main>
 

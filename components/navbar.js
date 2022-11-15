@@ -9,30 +9,36 @@ export default function Navbar() {
             <div className={styles.logo1}>
             <Image 
                     src="/images/logo1.png" 
-                    width="100" 
-                    height="80" 
+                    width="120" 
+                    height="40" 
                     alt="brasão"/>
             </div>
-            <li className={styles.link}>
+            <li>
                 <Link href="/">
                     <a>Início</a>
                 </Link>
             </li>
             <li>
                 <Link href="./principal">
-                    <a>Principal</a>
+                    <a>Login/Logout</a>
                 </Link>
             </li> 
             <li>
-                <Link href="./sobre">
-                    <a>Canais</a>
+                <Link href="./principal">
+                    <a>Principal</a>
                 </Link>
             </li> 
+           
             <li>
                 <Link href="./player">
                     <a>Player</a>
                 </Link>
-            </li>                   
+            </li>   
+            <li>
+                <Link href="./teste">
+                    <a>testeHtml</a>
+                </Link>
+            </li>                 
         </ul>
     
     )

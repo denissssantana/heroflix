@@ -2,30 +2,20 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-    }
-
-    .header {
-    min-height: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content:center;
-    align-items: center;
-
-    }
-    
-    .main {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     background-color: #16011e;
-    
     }
 
-    .footer {
-    flex-shrink: 0;
-    height: 70px;
+.mainContent{
+    flex-grow: 1;
+    height: auto;
+    
+}    
+
+.main {
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+  
     
 }
