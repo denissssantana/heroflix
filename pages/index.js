@@ -21,7 +21,8 @@ export default function Home() {
               src="/videos/intro1.mp4" width="1200"
               autoPlay 
               preload
-              ></video>
+              muted>
+            </video>
           </div>
           <Link href="./login"> 
             <h1>ENTRAR</h1>
