@@ -13,12 +13,13 @@ export default function Sobre() {
                 <header className={styles.header}>
                     <Navbar/>
                 </header>
+                <div className={styles.mainContent} >
                 <main className={styles.main}>
                     <div className={styles.texto}>
                         <h1>Essa é uma aplicação web, utilizando os vários recursos disponibilizados pelo framework Next Js, visando a composição de um projeto, cumprindo os requisitos  da disciplina de programação Web, Ficr-2022.</h1>
                     </div>
                 </main>
-
+                </div>
                 <footer className={styles.footer}>
                     <Footer/>
                 </footer> 

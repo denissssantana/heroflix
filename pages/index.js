@@ -18,7 +18,7 @@ export default function Home() {
         <div className={styles.filme}>
           
             <video
-              src="/videos/intro1.mp4" width="1200"
+              src="/videos/intro1.mp4" width="1000"
               autoPlay 
               preload
               muted>

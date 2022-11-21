@@ -19,7 +19,7 @@ export default function Navbar() {
                 </Link>
             </li>
             <li>
-                <Link href="./principal">
+                <Link href="./login">
                     <a>Login/Logout</a>
                 </Link>
             </li> 
@@ -34,11 +34,7 @@ export default function Navbar() {
                     <a>Player</a>
                 </Link>
             </li>   
-            <li>
-                <Link href="./teste">
-                    <a>testeHtml</a>
-                </Link>
-            </li>                 
+                           
         </ul>
     
     )

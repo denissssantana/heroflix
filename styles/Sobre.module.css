@@ -2,30 +2,27 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-
-    }
-    
-    .main {
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
     background-color: #16011e;
-    
     }
 
-    .texto{
-        width: 80%; 
-        color: rgb(241, 241, 235);
-        font-size: 20px;
-        text-align: center;
-        
+.mainContent{
+    flex-grow: 1;
+    height: auto;
     
-    }
+}    
 
-    .footer {
-    flex-shrink: 0;
-    height: 70px;
+.main {
+    display: flex;
+    height:88vh;
+    justify-content: center;
+    align-items: center;
     
+    
+}
+
+.texto{
+    width: 80%; 
+    color: rgb(241, 241, 235);
+    font-size: 20px;
+    text-align: center;    
 }

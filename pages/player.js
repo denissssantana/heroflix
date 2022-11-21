@@ -20,15 +20,12 @@ export default function Principal() {
       <div className={styles.mainContent}>
 
         <main className={styles.main}>
-          <div>
             <video
-              src="/videos/adaoNegro.mp4" width="1200"
+              src="/videos/adaoNegro.mp4" width="850"
               autoPlay 
               controls
               preload >
-            </video>
-          </div>
-          
+            </video>          
         </main>
 </div>
         <div className={styles.footer}>
