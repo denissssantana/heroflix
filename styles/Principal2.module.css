@@ -1,0 +1,32 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #16011e;
+    }
+
+.mainContent1{
+    display: grid;
+    justify-content:center;
+    width: 300;
+    height: 500px;
+    background-color: #16011e;
+    padding-bottom: 50px;
+    margin: 0;
+    
+    
+} 
+
+
+
+.mainContent2{
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    height: auto;
+    background-color: #16011e;
+    
+}   
+
+
+

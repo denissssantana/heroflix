@@ -14,7 +14,7 @@ export default function Navbar() {
                     alt="brasão"/>
             </div>
             <li>
-                <Link href="/">
+                <Link href="/principal">
                     <a>Início</a>
                 </Link>
             </li>
@@ -27,14 +27,18 @@ export default function Navbar() {
                 <Link href="./principal">
                     <a>Principal</a>
                 </Link>
+            </li>
+            <li>
+                <Link href="./principal2">
+                    <a>Principal2</a>
+                </Link>
             </li> 
-           
             <li>
                 <Link href="./player">
                     <a>Player</a>
                 </Link>
-            </li>   
-                           
+            </li>
+            
         </ul>
     
     )

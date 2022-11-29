@@ -24,7 +24,7 @@ export default function Home() {
               muted>
             </video>
           </div >
-          <Link href="./login">
+          <Link href="./principal2">
             <h1 style={{ cursor: "pointer" }}>ENTRAR</h1>
           </Link>
 

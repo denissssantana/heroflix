@@ -2,7 +2,7 @@ import React from "react";
 import Carousel2 from "react-multi-carousel";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "../styles/Carousel.module.css"
+import styles from "../styles/carousel2.module.css"
 import "react-multi-carousel/lib/styles.css";
 
 
@@ -11,14 +11,14 @@ const Slider2 = (props) => {
     const renderizarRecomendadas = props.arquivos.map((item, index) => {
         return (
             <div key={index} style={{ cursor: "pointer" }}>
-                <div className={styles.carouselP}>
-                    <Link href={item.page}>
-                        <Image
-                            src={item.link}
-                            width="1920"
-                            height="1080"
-                            alt="filmes" />
-                    </Link>
+                <div className={styles.carouselG}>
+                <Link href={item.page}>
+                    <Image
+                        src={item.link}
+                        width="1000"
+                        height="500"
+                        alt="banner" />
+                </Link>
                 </div>
             </div>
         )
@@ -43,10 +43,10 @@ const Slider2 = (props) => {
     };
 
     return (
-        <div style={{ width: '1920px', height: '300px' }}>
+        <div style={{ width: '100%', height: '100%' }}>
             <div>
-                <p className="NomePlaylista">Teste</p>
-                <div className="BoxCarousel">
+                
+                <div className="BoxCarousel2">
                     <Carousel2
                         autoPlay={true}
                         infinite={true}
@@ -66,4 +66,3 @@ const Slider2 = (props) => {
 
 
 export default Slider2
-

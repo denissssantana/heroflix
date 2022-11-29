@@ -15,8 +15,8 @@ const Slider = (props) => {
                 <Link href={item.page}>
                     <Image
                         src={item.link}
-                        width="1920"
-                        height="1080"
+                        width="2000"
+                        height="1500"
                         alt="banner" />
                 </Link>
                 </div>
@@ -26,7 +26,7 @@ const Slider = (props) => {
 
     const responsive = {
         desktop: {
-            breakpoint: { max: 3000, min: 1024 },
+            breakpoint: { max: 5000, min: 5000 },
             items: 3.3,
             slidesToSlide: 3 // optional, default to 1.
         },
@@ -43,9 +43,9 @@ const Slider = (props) => {
     };
 
     return (
-        <div style={{ width: '1300px', height: '500px' }}>
+        <div style={{ width: '1000px', height: '500px' }}>
             <div>
-                <p className="NomePlaylista">Teste</p>
+                
                 <div className="BoxCarousel">
                     <Carousel
                         autoPlay={true}
