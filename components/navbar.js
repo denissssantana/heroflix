@@ -13,32 +13,35 @@ export default function Navbar() {
                     height="40" 
                     alt="brasão"/>
             </div>
+            
+            
             <li>
-                <Link href="/principal">
+                <Link href="/principal2">
                     <a>Início</a>
                 </Link>
             </li>
             <li>
-                <Link href="./login">
-                    <a>Login/Logout</a>
+                <Link href="./sobre">
+                    <a>Sobre</a>
                 </Link>
             </li> 
             <li>
-                <Link href="./principal">
-                    <a>Principal</a>
+                <Link href="./contato">
+                    <a>Contatos</a>
                 </Link>
-            </li>
+            </li> 
             <li>
                 <Link href="./principal2">
-                    <a>Principal2</a>
-                </Link>
-            </li> 
-            <li>
-                <Link href="./player">
-                    <a>Player</a>
+                    <a>Voltar</a>
                 </Link>
             </li>
-            
+            <li>
+                <Link href="/">
+                    <a>Sair</a>
+                </Link>
+            </li>
+         
+         
         </ul>
     
     )

@@ -19,17 +19,18 @@ export default function Principal() {
 
   const list1 = [
     { link: '/images/wakandaBanner.png', page: '/videos/pantera4.mp4' },
-    
+
   ]
 
   const list2 = [
-    { link: '/images/coringa.png', page: '/videos/coringa.mp4' },
-    { link: '/images/invasaoSecreta.png', page: '/videos/invasaoSecreta.mp4' },
-    { link: '/images/theBatman.png', page: '/videos/theBatman.mp4' },
-    { link: '/images/thor4.png', page: '/videos/thor4.mp4' },
-    { link: '/images/drEstranho2.png', page: '/videos/doutor2.mp4' },
-  ] 
-  
+    { link: '/images/coringa.png', page: './playerCoringa' },
+    { link: '/images/invasaoSecreta.png', page: './playerIvasaoSecreta' },
+    { link: '/images/theBatman.png', page: './playerTheBatman' },
+    { link: '/images/thor4.png', page: './playerThor4' },
+    { link: '/images/drEstranho2.png', page: 'playerDrEstranho2' },
+    { link: '/images/pantera2.png', page: 'playerPantera2' },
+  ]
+
   return (
     <>
       <Head>
@@ -38,27 +39,30 @@ export default function Principal() {
       </Head>
       <div className={styles.container}>
         <div>
-          <Navbar/>
+          <Navbar />
+        </div>
+        <div className={styles.destaque}>
+          <a>Destaque do Mês</a>
         </div>
 
-        <div className={styles.mainContent1}>
-        <div className={styles.mainContent1}>
-          <Link href="/videos/adaoNegro.mp4">
-              <Image
-                src="/images/adaoBanner.png"
-                width="3000"
-                height="500"
-                alt="banner" />
-              </Link>
-      </div>
-        <Slider arquivos={list1} />
+        <div className={styles.maindestaque}>
+          <Link href="./playerAdao">
+            <Image
+              src="/images/adaoBanner.png"
+              width="3000"
+              height="200"
+              alt="banner" />
+          </Link>
         </div>
-      <div className={styles.mainContent2}>
-        <Slider2 arquivos={list2} />
-      </div>
+        <div className={styles.filmes}>
+          <a>Filmes</a>
+        </div>
+        <div className={styles.mainContent2}>
+          <Slider2 arquivos={list2} />
+        </div>
 
         <div>
-          <Footer/>
+          <Footer />
         </div>
 
       </div>

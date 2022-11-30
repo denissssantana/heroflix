@@ -21,7 +21,7 @@ export default function Principal() {
 
         <main className={styles.main}>
             <video
-              src="/videos/adaoNegro.mp4" width="850"
+              src="/videos/coringa.mp4" width="850"
               autoPlay 
               controls
               preload >

@@ -1,0 +1,32 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #16011e;
+    
+}
+
+
+.destaque h1{
+    font-size: 22px;
+    color: aliceblue;
+
+} 
+
+
+
+
+.mainContent{
+    flex-grow: 1;
+    height: auto;
+
+}   
+
+.main {
+    display: flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
