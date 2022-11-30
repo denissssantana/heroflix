@@ -7,9 +7,7 @@ export default function footer() {
         <footer className={styles.footer}>
            
             
-            <Link href="./sobre">
-                <a>Sobre</a>
-            </Link>
+            
 
             <div className={styles.logo}>
                 <Image 
@@ -19,9 +17,7 @@ export default function footer() {
                     alt="brasão"/>
             </div>
                         
-            <Link href="./contato">
-                <a>Contatos</a>
-            </Link>
+            
                        
         </footer>      
         
